@@ -1,4 +1,4 @@
-body {margin: 0; background-color: MistyRose; font-family: Verdana, sans-serif;}
+body {margin: 0; background-color: #A239CA ; font-family: Verdana, sans-serif;}
 
 ul.sidenav {
     list-style-type: none;
@@ -13,7 +13,7 @@ ul.sidenav {
 
 ul.sidenav li a {
     display: block;
-    color: #000;
+    color: #E7DFDD;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -24,7 +24,7 @@ ul.sidenav li a.active {
 }
 
 ul.sidenav li a:hover:not(.active) {
-    background-color: #A239CA;
+    background-color: #0E0B16;
     color: white;
 }
 
