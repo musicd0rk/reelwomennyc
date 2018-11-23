@@ -1,4 +1,4 @@
-body {margin: 0; background-color: #A239CA ; font-family: Verdana, sans-serif; color:#E7DFDD; }
+body {margin: 0; background-color: #A239CA ; font-family: Lato, sans-serif; color:#E7DFDD; }
 
 ul.sidenav {
     list-style-type: none;
@@ -33,6 +33,19 @@ div.content {
     padding: 10px 16px;
     height: 1000px;
 }
+    
+div.header-2 {
+    margin-left: 25%;
+    padding: 10px 16px;
+    font-family: 'Playfair Display', serif;
+    font-size: 68px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 68px;
+    text-transform: none;
+    color: #000000;
+}
 
 @media screen and (max-width: 900px) {
     ul.sidenav {
@@ -46,7 +59,18 @@ div.content {
     }
     div.content {margin-left: 0;}
 }
-
+    div.header-2 {
+         margin-left: 25%;
+         padding: 10px 16px;
+         font-family: 'Playfair Display', serif;
+         font-size: 68px;
+         font-style: italic;
+         font-weight: bold;
+         letter-spacing: normal;
+         line-height: 68px;
+         text-transform: none;
+         color: #000000;
+}
 @media screen and (max-width: 400px) {
     ul.sidenav li a {
         text-align: center;
