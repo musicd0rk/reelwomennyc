@@ -51,10 +51,17 @@ div.header-2 {
 }
 
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
     display: table;
+}
+
+.clearfix:after {
     clear: both;
 }
 
