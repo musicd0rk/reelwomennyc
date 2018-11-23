@@ -53,17 +53,6 @@ div.header-2 {
     text-transform: none;
     color: #0E0B16;
 }
-div.column {
-    float: left;
-    width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 footer {
      position: absolute;
@@ -105,13 +94,6 @@ footer {
     height: 24px;
 }
 }  
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-
-
 @media screen and (max-width: 400px) {
     ul.sidenav li a {
         text-align: center;
