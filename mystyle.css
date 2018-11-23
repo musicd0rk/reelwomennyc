@@ -57,7 +57,7 @@ div.header-2 {
         float: left;
         padding: 15px;
     }
-    div.content {margin-left: 0;}
+    div.content {margin-left: 0;
 }
     div.header-2 {
          margin-left: 25%;
@@ -71,6 +71,7 @@ div.header-2 {
          text-transform: none;
          color: #0E0B16;
 }
+}  
 @media screen and (max-width: 400px) {
     ul.sidenav li a {
         text-align: center;
@@ -88,4 +89,5 @@ div.header-2 {
          text-transform: none;
          color: #0E0B16;
 }
+    }
 
