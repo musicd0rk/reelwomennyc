@@ -2,7 +2,7 @@ body {margin: 0; background-color: #A239CA ; font-family: Verdana, sans-serif; c
 
 ul.sidenav {
     list-style-type: none;
-    margin: 0;
+    margin: 10;
     padding: 0;
     width: 25%;
     background-color: #4717F6;
