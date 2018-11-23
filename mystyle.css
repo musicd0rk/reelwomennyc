@@ -33,15 +33,6 @@ div.content {
     padding: 10px 16px;
     height: 90%;
 }
-div.row {
-
-}
-
-div.bio {
-    padding: 10px 16px;
-    height: 90%;
-    float: right;
-}
     
 div.header-2 {
     margin-left: 25%;
@@ -56,12 +47,17 @@ div.header-2 {
     color: #0E0B16;
 }
 div.column {
-    float: left;
-    width: 50%;
+    
+    width: 375px;
 }
     #photo {
-        max-width: 150px
+        float: left;
     }
+    #bio {
+    margin-left: 650px;
+    padding: 10px 16px;
+    float: right;
+}
 
 /* Clear floats after the columns */
 .row:after {
