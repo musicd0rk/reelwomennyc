@@ -33,6 +33,13 @@ div.content {
     padding: 10px 16px;
     height: 90%;
 }
+
+div.bio {
+    margin-left: 25%;
+    padding: 10px 16px;
+    height: 90%;
+    float: left;
+}
     
 div.header-2 {
     margin-left: 25%;
