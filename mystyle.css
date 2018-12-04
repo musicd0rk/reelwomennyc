@@ -1,31 +1,32 @@
 body {margin: 0; background-color: #F4DECB ; font-family: Lato, sans-serif; color:#0E0B16; }
 
-ul.sidenav {
+ul {
     list-style-type: none;
-    margin: 10;
+    margin: 0;
     padding: 0;
-    width: 25%;
+    overflow: hidden;
     background-color: #49274A;
-    position: fixed;
-    height: 90%;
-    overflow: auto;
 }
 
-ul.sidenav li a {
+li {
+    float: left;
+}
+
+li a {
     display: block;
-    color: #E7DFDD;
-    padding: 8px 16px;
+    color: #F8EEE7;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
- 
-ul.sidenav li a.active {
-    background-color: #49274A;
-    color: white;
+
+li a:hover:not(.active) {
+	color: black;
+    background-color: #F8EEE7;
 }
 
-ul.sidenav li a:hover:not(.active) {
+.active {
     background-color: #94618E;
-    color: white;
 }
 
 div.content {
