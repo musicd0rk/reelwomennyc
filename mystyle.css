@@ -34,7 +34,7 @@ li a:hover:not(.active) {
 }
 
 div.content {
-    margin-left: 0%;
+    margin-left: 10px;
     padding: 10px 16px;
     height: 90%;
 }
@@ -43,7 +43,7 @@ img {
   float: left;}
     
 div.header-2 {
-    margin-left: 0;
+    margin-left: 10px;
     padding: 10px 16px;
     font-family: 'Playfair Display', serif;
     font-size: 68px;
